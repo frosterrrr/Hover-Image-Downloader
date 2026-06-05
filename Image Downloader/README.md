@@ -7,7 +7,7 @@ A Chrome extension that adds a small download button to images while the extensi
 1. Open Chrome and go to `chrome://extensions`.
 2. Turn on **Developer mode**.
 3. Click **Load unpacked**.
-4. Select this folder: `C:\Users\Conner Hoskins\OneDrive\Documents\Image Downloader`.
+4. Select this folder: `C:\Users\Froster\Downloads\Hover-Image-Downloader-main\Hover-Image-Downloader-main\Image Downloader`.
 
 ## Use
 
