@@ -1,0 +1,24 @@
+.hid-download-button {
+  position: fixed;
+  z-index: 2147483647;
+  width: 34px;
+  height: 34px;
+  border: 0;
+  border-radius: 6px;
+  background: rgba(17, 24, 39, 0.92);
+  color: #ffffff;
+  cursor: pointer;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.28);
+  font: 700 18px/1 Arial, sans-serif;
+}
+
+.hid-download-button:hover {
+  background: rgba(3, 105, 161, 0.96);
+}
+
+.hid-download-button:active {
+  transform: translateY(1px);
+}

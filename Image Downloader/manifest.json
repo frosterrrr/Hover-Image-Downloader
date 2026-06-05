@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Hover Image Downloader",
+  "description": "Shows a download button when hovering over images.",
+  "version": "1.0.0",
+  "permissions": ["downloads", "storage"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_title": "Hover Image Downloader",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
